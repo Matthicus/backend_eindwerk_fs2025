@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Models\WorkoutExercise;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
 class WorkoutExercise extends Model
 {
-    protected $table = 'workout_exercises';
+    protected $table = 'workouts_exercises';
 }
